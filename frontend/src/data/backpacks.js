@@ -1,0 +1,81 @@
+const products = [
+  {
+    _id: '1',
+    name: 'Backpack 1',
+    image: '/images/backpacks/backpack1.jpg',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum. Eaque rerum! Provident similique accusantium nemo autem.',
+    brand: 'Timberland',
+    category: 'Boots',
+    price: 89.99,
+    countInStock: 10,
+    rating: 4.5,
+    numReviews: 10,
+  },
+  {
+    _id: '2',
+    name: 'Backpack 2',
+    image: '/images/backpacks/backpack2.jpg',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum. Eaque rerum! Provident similique accusantium nemo autem.',
+    brand: 'Timberland',
+    category: 'Boots',
+    price: 89.99,
+    countInStock: 10,
+    rating: 4.5,
+    numReviews: 10,
+  },
+  {
+    _id: '3',
+    name: 'Backpack 3',
+    image: '/images/backpacks/backpack3.jpg',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum. Eaque rerum! Provident similique accusantium nemo autem.',
+    brand: 'Timberland',
+    category: 'Boots',
+    price: 89.99,
+    countInStock: 10,
+    rating: 4.5,
+    numReviews: 10,
+  },
+  {
+    _id: '4',
+    name: 'Backpack 4',
+    image: '/images/backpacks/backpack4.jpg',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum. Eaque rerum! Provident similique accusantium nemo autem.',
+    brand: 'Timberland',
+    category: 'Boots',
+    price: 89.99,
+    countInStock: 10,
+    rating: 4.5,
+    numReviews: 10,
+  },
+  {
+    _id: '5',
+    name: 'Boots5',
+    image: '/images/backpacks/backpack5.jpg',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum. Eaque rerum! Provident similique accusantium nemo autem.',
+    brand: 'Timberland',
+    category: 'Boots',
+    price: 89.99,
+    countInStock: 10,
+    rating: 4.5,
+    numReviews: 10,
+  },
+  {
+    _id: '6',
+    name: 'Boots6',
+    image: '/images/backpacks/backpack6.jpg',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum. Eaque rerum! Provident similique accusantium nemo autem.',
+    brand: 'Timberland',
+    category: 'Boots',
+    price: 89.99,
+    countInStock: 10,
+    rating: 4.5,
+    numReviews: 10,
+  },
+];
+export default products;

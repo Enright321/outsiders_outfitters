@@ -1,0 +1,81 @@
+const products = [
+  {
+    _id: '1',
+    name: 'Tent 1',
+    image: '/images/tents/tent1.jpg',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum. Eaque rerum! Provident similique accusantium nemo autem.',
+    brand: 'Timberland',
+    category: 'Tents',
+    price: 89.99,
+    countInStock: 10,
+    rating: 4.5,
+    numReviews: 10,
+  },
+  {
+    _id: '2',
+    name: 'Tent 2',
+    image: '/images/tents/tent2.jpg',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum. Eaque rerum! Provident similique accusantium nemo autem.',
+    brand: 'Timberland',
+    category: 'Boots',
+    price: 89.99,
+    countInStock: 10,
+    rating: 4.5,
+    numReviews: 10,
+  },
+  {
+    _id: '3',
+    name: 'Tent 3',
+    image: '/images/tents/tent3.jpg',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum. Eaque rerum! Provident similique accusantium nemo autem.',
+    brand: 'Timberland',
+    category: 'Boots',
+    price: 89.99,
+    countInStock: 10,
+    rating: 4.5,
+    numReviews: 10,
+  },
+  {
+    _id: '4',
+    name: 'Tent 4',
+    image: '/images/tents/tent4.jpg',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum. Eaque rerum! Provident similique accusantium nemo autem.',
+    brand: 'Timberland',
+    category: 'Boots',
+    price: 89.99,
+    countInStock: 10,
+    rating: 4.5,
+    numReviews: 10,
+  },
+  {
+    _id: '5',
+    name: 'Tent 5',
+    image: '/images/tents/tent5.jpg',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum. Eaque rerum! Provident similique accusantium nemo autem.',
+    brand: 'Timberland',
+    category: 'Boots',
+    price: 89.99,
+    countInStock: 10,
+    rating: 4.5,
+    numReviews: 10,
+  },
+  {
+    _id: '6',
+    name: 'Tent 6',
+    image: '/images/tents/tent6.jpg',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum. Eaque rerum! Provident similique accusantium nemo autem.',
+    brand: 'Timberland',
+    category: 'Boots',
+    price: 89.99,
+    countInStock: 10,
+    rating: 4.5,
+    numReviews: 10,
+  },
+];
+export default products;

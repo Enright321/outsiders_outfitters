@@ -1,0 +1,38 @@
+main {
+  min-height: 80vh;
+  background-color: #343a40;
+  opacity: 0.9;
+}
+a:hover {
+  text-decoration: none;
+}
+
+/* icons */
+.brand-icon {
+  color: green;
+  padding: 0 3px;
+}
+.cart-icon,
+.login-icon {
+  padding-right: 3px;
+}
+
+.home-title {
+  color: white;
+}
+.card-title {
+  color: black;
+}
+.bg-image {
+  position: absolute;
+  top: 56px;
+  left: 0px;
+  height: 500px;
+  width: 100%;
+  z-index: -1;
+  filter: brightness(50%);
+}
+.footer {
+  background-color: #343a40;
+  color: white;
+}
