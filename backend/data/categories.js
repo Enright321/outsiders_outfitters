@@ -1,4 +1,4 @@
-const products = [
+const categories = [
   {
     _id: '1',
     name: 'Boots',
@@ -30,4 +30,4 @@ const products = [
     image: '/images/accessories/accessories1.jpg',
   },
 ];
-export default products;
+export default categories;

@@ -3,7 +3,7 @@ import { Card } from 'react-bootstrap';
 
 const Category = ({ cat }) => {
   return (
-    <a href={`/category/${cat.name}`}>
+    <a href={`/${cat.name}`}>
       <Card className='m-3 p-3 rounded'>
         <Card.Img src={cat.image} variant='top' />
         <Card.Body>
