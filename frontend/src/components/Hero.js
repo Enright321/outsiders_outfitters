@@ -25,5 +25,9 @@ const Hero = ({ text, title }) => {
     </div>
   );
 };
+Hero.defaultProps = {
+  title: 'Start Your Next Adventure.',
+  text: 'Your one stop shop for outdoor apparel and hiking gear.',
+};
 
 export default Hero;

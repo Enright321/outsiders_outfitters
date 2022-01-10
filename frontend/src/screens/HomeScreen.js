@@ -1,30 +1,27 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import React, { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { listCategories } from '../actions/categoryActions';
 import { Row, Col, Container } from 'react-bootstrap';
 import Category from '../components/Category';
 import Gallery from '../components/Gallery';
 import Hero from '../components/Hero';
 
 const HomeScreen = () => {
-  const text = 'Your one stop shop for outdoor apparel and hiking gear.';
-  const title = 'Start Your Next Adventure.';
+  const dispatch = useDispatch();
 
-  const [categories, setCategories] = useState([]);
-  const [loading, setLoading] = useState(false);
+  const categoryList = useSelector((state) => state.categoryList);
+  const { loading, error, categories } = categoryList;
+
   useEffect(() => {
-    const fetchCategories = async () => {
-      setLoading(true);
-      const { data } = await axios.get('/api/categories');
-      setLoading(false);
-      setCategories(data);
-    };
-    fetchCategories();
-  }, []);
+    dispatch(listCategories());
+  }, [dispatch]);
   return (
     <>
-      <Hero text={text} title={title} />
+      <Hero />
       {loading ? (
         <h2>Loading...</h2>
+      ) : error ? (
+        <h3>Error</h3>
       ) : (
         <Container className='py-3'>
           <h2 className='home-title'>Popular Categories</h2>

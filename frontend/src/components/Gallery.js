@@ -1,6 +1,5 @@
 import axios from 'axios';
 import React, { useState, useEffect } from 'react';
-// import gallery from '../data/gallery';
 
 const Gallery = () => {
   const [model, setModel] = useState(false);
@@ -11,7 +10,7 @@ const Gallery = () => {
   useEffect(() => {
     const fetchData = async () => {
       setLoading(true);
-      const { data } = await axios.get('/api/categories/gallery');
+      const { data } = await axios.get('/api/gallery');
       setLoading(false);
       setGallery(data);
     };

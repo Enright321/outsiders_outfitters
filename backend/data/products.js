@@ -1,6 +1,5 @@
 const products = [
   {
-    _id: '1',
     name: 'Black Beanie',
     image: '/images/accessories/beanie1.jpg',
     description:
@@ -13,7 +12,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '2',
     name: 'Blue Beanie',
     image: '/images/accessories/beanie2.jpg',
     description:
@@ -26,7 +24,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '3',
     name: 'Compass',
     image: '/images/accessories/compass1.jpg',
     description:
@@ -39,7 +36,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '4',
     name: 'Circle Sunglasses',
     image: '/images/accessories/glasses1.jpg',
     description:
@@ -52,7 +48,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '5',
     name: 'Red Sunglasses',
     image: '/images/accessories/glasses2.jpg',
     description:
@@ -65,7 +60,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '6',
     name: 'Brown Beanie',
     image: '/images/accessories/accessories1.jpg',
     description:
@@ -78,7 +72,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '7',
     name: 'Baseball Cap',
     image: '/images/accessories/hat1.jpg',
     description:
@@ -91,7 +84,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '8',
     name: 'Wool Socks',
     image: '/images/accessories/socks1.jpg',
     description:
@@ -104,7 +96,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '9',
     name: 'Watch',
     image: '/images/accessories/watch1.jpg',
     description:
@@ -117,7 +108,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '10',
     name: 'Backpack 1',
     image: '/images/backpacks/backpack1.jpg',
     description:
@@ -130,7 +120,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '11',
     name: 'Backpack 2',
     image: '/images/backpacks/backpack2.jpg',
     description:
@@ -143,7 +132,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '12',
     name: 'Backpack 3',
     image: '/images/backpacks/backpack3.jpg',
     description:
@@ -156,7 +144,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '13',
     name: 'Backpack 4',
     image: '/images/backpacks/backpack4.jpg',
     description:
@@ -169,7 +156,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '14',
     name: 'Boots5',
     image: '/images/backpacks/backpack5.jpg',
     description:
@@ -182,7 +168,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '15',
     name: 'Boots6',
     image: '/images/backpacks/backpack6.jpg',
     description:
@@ -195,7 +180,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '16',
     name: 'Boots1',
     image: '/images/boots/boots1.jpg',
     description:
@@ -208,7 +192,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '17',
     name: 'Boots2',
     image: '/images/boots/boots2.jpg',
     description:
@@ -221,7 +204,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '18',
     name: 'Boots3',
     image: '/images/boots/boots3.jpg',
     description:
@@ -234,7 +216,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '19',
     name: 'Boots4',
     image: '/images/boots/boots4.jpg',
     description:
@@ -247,7 +228,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '20',
     name: 'Boots5',
     image: '/images/boots/boots5.jpg',
     description:
@@ -260,7 +240,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '21',
     name: 'Boots6',
     image: '/images/boots/boots6.jpg',
     description:
@@ -273,7 +252,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '22',
     name: 'Hammock 1',
     image: '/images/hammocks/hammock1.jpg',
     description:
@@ -286,7 +264,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '23',
     name: 'Hammock 2',
     image: '/images/hammocks/hammock2.jpg',
     description:
@@ -299,7 +276,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '24',
     name: 'Hammocks3',
     image: '/images/hammocks/hammock3.jpg',
     description:
@@ -312,7 +288,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '25',
     name: 'Hammock 4',
     image: '/images/hammocks/hammock4.jpg',
     description:
@@ -325,7 +300,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '26',
     name: 'Hammock 5',
     image: '/images/hammocks/hammock5.jpg',
     description:
@@ -338,7 +312,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '27',
     name: 'Hammock 6',
     image: '/images/hammocks/hammock6.jpg',
     description:
@@ -351,7 +324,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '28',
     name: 'Jacket 1',
     image: '/images/jackets/jacket1.jpg',
     description:
@@ -364,7 +336,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '29',
     name: 'Jacket 2',
     image: '/images/jackets/jacket2.jpg',
     description:
@@ -377,7 +348,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '30',
     name: 'Jacket 3',
     image: '/images/jackets/jacket3.jpg',
     description:
@@ -390,7 +360,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '31',
     name: 'Jacket 4',
     image: '/images/jackets/jacket4.jpg',
     description:
@@ -403,7 +372,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '32',
     name: 'Jacket 5',
     image: '/images/jackets/jacket5.jpg',
     description:
@@ -416,7 +384,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '33',
     name: 'Jacket 6',
     image: '/images/jackets/jacket6.jpg',
     description:
@@ -429,7 +396,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '34',
     name: 'Tent 1',
     image: '/images/tents/tent1.jpg',
     description:
@@ -442,7 +408,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '35',
     name: 'Tent 2',
     image: '/images/tents/tent2.jpg',
     description:
@@ -455,7 +420,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '36',
     name: 'Tent 3',
     image: '/images/tents/tent3.jpg',
     description:
@@ -468,7 +432,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '37',
     name: 'Tent 4',
     image: '/images/tents/tent4.jpg',
     description:
@@ -481,7 +444,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '38',
     name: 'Tent 5',
     image: '/images/tents/tent5.jpg',
     description:
@@ -494,7 +456,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '39',
     name: 'Tent 6',
     image: '/images/tents/tent6.jpg',
     description:
